@@ -1,15 +1,13 @@
 function forLoop(array){
   var newArray = array;
   for (let i = 0; i<25; i++){
-
-      newArray = [...newArray,  `I am ${i} strange loops.`];
-
+    newArray = [...newArray,  `I am ${i} strange loops.`];
   }
   return newArray;
 }
 
 function whileLoop(n){
-  let countdown = n;
+  let countdown = 100;
   while (countdown > 0) {
     console.log(--countdown);
   }
@@ -17,8 +15,5 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  do{
-    array.pop();
-  }
-  while{array.length>0 or maybeTrue()}
+
 }
