@@ -1,7 +1,12 @@
 function forLoop(array){
   var newArray = array;
   for (let i = 0; i<25; i++){
-    newArray = [...newArray,  `I am ${i} strange loop${i==0 ? '' :'s'}.`];
+    if (i=1){
+      newArray = [...newArray, `I am ${i} strange loop.`];
+    }
+    else{
+      newArray = [...newArray,  `I am ${i} strange loops.`];
+    }
   }
   return newArray;
 }
